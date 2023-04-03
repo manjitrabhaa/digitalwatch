@@ -1,0 +1,65 @@
+body {
+    background-color: #eee;
+    font-family: Arial, sans-serif;
+  }
+  
+  #clock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+    width: 400px;
+    height: 100px;
+    background-color: #fff;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-size: 64px;
+    text-align: center;
+    color: #444;
+  }
+  
+  #alarm-form {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 400px;
+    padding: 20px;
+    background-color: #fff;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #alarm-form label {
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 10px;
+    color: #555;
+  }
+  
+  #alarm-form input[type="time"] {
+    font-size: 24px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    outline: none;
+  }
+  
+  #alarm-form input[type="button"] {
+    font-size: 24px;
+    padding: 5px 10px;
+    margin-left: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #alarm-form input[type="button"]:hover {
+    background-color: #3e8e41;
+  }
+  
